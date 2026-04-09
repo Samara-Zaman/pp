@@ -1,5 +1,5 @@
 //Swap two numbers without using a third variable.
-//Tuple Approach (Modern C# — Cleanest)                    
+//Tuple Approach (Modern C#)                    
                       
   
 using System;
@@ -11,7 +11,7 @@ class program{
 
         Console.WriteLine("Before swapping: a = " + a + ", b = " + b);
 
-        (a, b) = (b, a);   // One-liner swap ✨
+        (a, b) = (b, a);   
 
         Console.WriteLine("After swapping:  a = " + a + ", b = " + b);
     }
